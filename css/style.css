@@ -444,7 +444,7 @@ ol {
   right: 0;
   bottom: 45px;
   width: 100%;
-  max-width: 1140px;
+  /*max-width: 1140px;*/
   margin: 0 auto;
 }
 .hero__slider.owl-carousel .owl-dots button {
@@ -806,7 +806,7 @@ ol {
 }
 .tickets.latest__item:hover {
   border: 1px solid #222222 !important;
-  background: url(../img/retroPiece.png);
+  background: url(../img/dashboard.png);
   background-size: cover;
 }
 
@@ -1834,13 +1834,13 @@ ol {
   }
 
   .hero__slider.owl-carousel .owl-dots {
-    max-width: 930px !important;
+    /*max-width: 930px !important; */
   }
 }
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__slider.owl-carousel .owl-dots {
-    max-width: 690px !important;
+    /*max-width: 690px !important;*/
   }
 
   .services__title {

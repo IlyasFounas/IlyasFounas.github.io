@@ -147,14 +147,14 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <ul class="portfolio__filter">
-                                <li class="active" data-filter="*">All</li>
-                                <li data-filter=" .web">web</li>
-                                <li data-filter=".backend">Back-end</li>
-                                <li data-filter=".frontend">Front-end</li>
-                                <li data-filter=".frame">Frameworks</li>
-                                <li data-filter=".poo">POO</li>
-                                <li data-filter=" .game">Game Engine</li>
-                                <li data-filter=" .basic">basic</li>
+                                <li class="active" data-filter="*" style="font-size:15px; color:white; font-weight: bold;">All</li>
+                                <li data-filter=" .web" style="font-size:15px; color:white; font-weight: bold;">Web</li>
+                                <li data-filter=".backend" style="font-size:15px; color:white; font-weight: bold;">Back-end</li>
+                                <li data-filter=".frontend" style="font-size:15px; color:white; font-weight: bold;">Front-end</li>
+                                <li data-filter=".frame" style="font-size:15px; color:white; font-weight: bold;">Frameworks</li>
+                                <li data-filter=".poo" style="font-size:15px; color:white; font-weight: bold;">POO</li>
+                                <li data-filter=" .game" style="font-size:15px; color:white; font-weight: bold;">Game Engine</li>
+                                <li data-filter=" .basic" style="font-size:15px; color:white; font-weight: bold;">Basics</li>
                             </ul>
                         </div>
                     </div>
@@ -242,58 +242,49 @@
             </section>
 
         </section>
-
-        <!-- Portfolio -->
-
+        <!-- Project-->
 
         <section class="latest spad" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title center-title">
-                            <h2>My Projects</h2>
-                        </div>
+            <div class="section-title center-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="row">
+                <div class=" latest__slider owl-carousel d-flex justify-content-center">
+                    <div class="col-12 latest__item">
+                        <h4 class="text-white" style="font-size:30px; font-weight: bold; margin-bottom: 20px;">RetroPièces</h4>
+                        
+                            <div class="alert alert-dismissible" style="background-color: orange;">
+                                <h4 class="alert-heading">Info</h4>
+                                <p class="mb-0 text-white">This website is under developpement</p>
+                            </div>                            
+                            <p>I decided to create an e-commerce site using Symfony for several reasons:
+                            <br/>This website is the <b style="font-size:15px; color:white; font-weight: bold;">Amazon</b> for Peugeot classic car parts.
+                            <br/>I developed the site with the <b style="font-size:15px; color:white; font-weight: bold;">Symfony</b> framework, adhering to a strict set of specifications.
+                            <br/>Ultimately, I believe that the development and project management have allowed me to gain <b style="font-size:15px; color:white; font-weight: bold;">better knowledge</b>.</p>
+                    
+                        <img src="./img/retroPiece.png">
                     </div>
-                </div>
-                <div class="row">
-                    <div class="latest__slider owl-carousel">
-                        <div class="col-12">
-                            <div class="blog__item retro latest__item">
-                                <h4>RetroPièces</h4>
-                                <ul>
-                                    <li>Not finished yet</li>
-                                </ul>
-                                <p>I decided to create an e-commerce site using Symfony for several reasons:
-                                    <br/>This website is the equivalent of Amazon for Peugeot classic car parts.
-                                    <br/>I developed the site with the Symfony framework, adhering to a strict set of specifications.
-                                    <br/>Ultimately, I believe that the development and project management have allowed me to gain better knowledge.</p>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="blog__item smash latest__item">
-                                <h4>2D Smash Bros</h4>
-                                <ul>
-                                    <li>Almost finished</li>
-                                </ul>
-                                <p>Since I love creating without limits, I combined my creativity with programming.
-                                    <br/>Therefore, I decided to develop a very simple game in appearance, so I could fully focus on server management and the user interface.
-                                    <br/>The code is available on my GitHub if you want to improve it or just see how I coded it. Good luck and have fun!</p>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="blog__item tickets latest__item">
-                                <h4>AD Gestion Tickets Clients</h4>
-                                <ul>
-                                    <li>September 01, 2023</li>
-                                    <li>June 07, 2024</li>
-                                </ul>
+                    <div class="col-12 latest__item">
+                        <h4 class="text-white" style="font-size:30px; font-weight: bold; margin-bottom: 20px;">AD Gestion Tickets Clients</h4>
 
-                                <p>During my year of work-study at Accès Diffusion, I created a support website for their clients.
-                                    <br/>This site allows clients to submit tickets when they encounter issues with their equipment.</p>
-                            </div>
-                        </div>
+                        <p>During my year of work-study at <b style="font-size:15px; color:white; font-weight: bold;">Accès Diffusion</b>, I created a support website for their clients.
+                            <br/>This site allows clients to submit tickets when they <b style="font-size:15px; color:white; font-weight: bold;">encounter issues</b> with their equipment.</p>
+                        <img src="./img/dashboard.png">
+                    </div>
+                    <div class="col-12 latest__item">
+                        <h4 class="text-white" style="font-size:30px; font-weight: bold; margin-bottom: 20px;">2D Smash Bros <a class="btn btn-outline-primary" href="https://github.com/IlyasFounas/smashPlatform" target="blank">GitHub</a></h4>                        
+                          <div class="alert alert-dismissible" style="background-color: orange;">
+                            <h4 class="alert-heading">Info</h4>
+                            <p class="mb-0 text-white">The 2D Smash Bros video game is almost finished</p>
+                          </div>  
+                          <p>                          
+                          <br/>Since I love creating without limits, I combined my creativity with programming.
+                            <br/>Therefore, I decided to develop a very simple game in appearance, so I could fully <b style="font-size:15px; color:white; font-weight: bold;">focus on server management </b>and the user interface.
+                            <br/>The code is available on my <b style="font-size:15px; color:white; font-weight: bold;">GitHub</b> if you want to improve it or just see how I coded it. Good luck and have fun!</p>
+                        <img src="./img/smash.png">
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -308,6 +299,7 @@
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 d-flex justify-content-sm-center">
+                    
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><img src="./img/gmail.png" width="30%"/></div>
@@ -317,9 +309,10 @@
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-phone fs-1 text-primary"></i></div>
-                            <p class="text-dark mb-0" style="margin-top:25px;">+07 83 31 83 61</p>
+                            <p class="text-dark mb-0" style="margin-top:25px;">+33 7 83 31 83 61</p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
